@@ -1,0 +1,12 @@
+{
+  "name": "parking",
+  "script": "./src/index.js",
+  "instances": 1,
+  "exec_mode": "fork",
+  "env_development": {
+    "NODE_ENV": "development",
+    "PORT": 2233,
+    "MONGODB_URL": "",
+    "JWT_SECRET": ""
+  }
+}
